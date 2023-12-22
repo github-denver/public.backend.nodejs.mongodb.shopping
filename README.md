@@ -10,15 +10,15 @@
 
 1. 이 프로젝트를 `clone` 해주세요.
 2. `npm install`로 `dependencies`, `devDependencies`를 설치해 주세요.
-3. `npm run dev`로 실행해 주세요.
-4. Postman과 같은 프로그램으로 API를 호출해 보세요.
+3. `npm run dev`로 프로젝트를 실행해 주세요.
+4. <a href="https://www.postman.com/" target="_blank">Postman</a>과 같은 프로그램으로 `API`를 호출해 보세요.
 
 ## 참고하기
 
-- 읽기, 수정, 삭제와 같이 `_id`가 필요한 부분은 먼저 쓰기 API를 실행 후 진행해 주세요.
+- 읽기, 수정, 삭제와 같이 `_id`가 필요한 부분은 먼저 `POST 쓰기 API`를 실행 후 진행해 주세요.
 - `_id`는 MongoDB 자체 고유 아이디입니다.
-- 형식은 String이고 24자리입니다.
-- POST 생성 API 호출 시 `_id` 값이 필요한 경우 해당 부분을 먼저 생성 후 반환된 `_id` 값을 사용해 주세요.
+- `_id`의 유형은 String이고 24자리입니다.
+- `POST 쓰기 API` 호출 시 `_id` 값이 필요한 경우 해당 부분을 먼저 생성 후 반환된 `_id` 값을 사용해 주세요.
 - `secret key`를 사용하는 기능들은 삭제되었습니다.
 - 현재 `최소 API`만 공개되어 있습니다.
 
