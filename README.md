@@ -24,9 +24,9 @@
 
 ## API 호출하기
 
-> `npm run dev`로 프로젝트를 실행 후 `http://localhost:5000/API`를 입력해서 호출해 주세요.
+> `npm run dev`로 프로젝트를 실행 후 `http://localhost:5000/api`를 입력해서 호출해 주세요.
 
-- 이제 `http://localhost:5000`은 `{{base_url}}`입니다.
+- 이제 `http://localhost:5000/api`은 `{{base_url}}`입니다.
 - 회원가입 후 로그인하고 반환받은 `token` 값으로 `Bearer token`을 설정해 주세요.
 
 ### User API
